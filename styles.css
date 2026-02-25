@@ -545,7 +545,8 @@ em {
     border-radius: 6px;
     font-size: 0.9rem;
     color: var(--slate);
-    white-space: nowrap;
+    white-space: normal;
+    word-break: break-word;
 }
 
 .chip-dark.highlight {
@@ -1613,5 +1614,18 @@ em {
 
     .spotlight-bottom {
         font-size: 1.25rem;
+    }
+
+    .service-box {
+        padding: 1.5rem;
+        gap: 2rem;
+    }
+
+    .service-title {
+        font-size: 1.6rem;
+    }
+
+    .upsell-container {
+        padding: 1rem;
     }
 }
