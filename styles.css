@@ -102,6 +102,88 @@ em {
     background-color: var(--navy-alt);
 }
 
+/* Light Theme Classes */
+.bg-light {
+    background-color: var(--white);
+    color: var(--navy);
+}
+
+.bg-light .section-title,
+.bg-light h2,
+.bg-light h3,
+.bg-light h4 {
+    color: var(--navy) !important;
+}
+
+.bg-light .section-subtitle,
+.bg-light p,
+.bg-light .footer-note,
+.bg-light .italic-note {
+    color: var(--navy) !important;
+}
+
+.bg-light .service-box,
+.bg-light .expense-card,
+.bg-light .benefit-box {
+    background-color: var(--white);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.bg-light .service-sub,
+.bg-light .upsell-note,
+.bg-light .upsell-model-note {
+    color: rgba(6, 14, 30, 0.7) !important;
+}
+
+.bg-light .chip-dark {
+    background: rgba(6, 14, 30, 0.05);
+    border: 1px solid rgba(6, 14, 30, 0.1);
+    color: var(--navy);
+}
+
+.bg-light .data-table th,
+.bg-light .data-table td {
+    border-bottom: 1px solid rgba(6, 14, 30, 0.1);
+    color: var(--navy);
+}
+
+.bg-light .data-table thead th {
+    background-color: rgba(6, 14, 30, 0.03);
+}
+
+.bg-light .col-highlight {
+    background-color: rgba(14, 132, 92, 0.05);
+    color: var(--navy);
+    font-weight: 600;
+}
+
+.bg-light .raise-row {
+    border-bottom: 1px solid rgba(6, 14, 30, 0.1);
+}
+
+.bg-light .accordion-item {
+    background-color: var(--white);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+}
+
+.bg-light .accordion-header {
+    color: var(--navy);
+}
+
+.bg-light .accordion-header:hover {
+    color: var(--gold);
+}
+
+.bg-light .accordion-content p {
+    color: rgba(6, 14, 30, 0.8) !important;
+}
+
+.bg-light .benefit-box p {
+    color: rgba(6, 14, 30, 0.8) !important;
+}
+
 /* Buttons */
 .btn {
     display: inline-block;
