@@ -1,11 +1,11 @@
 /* GLOBAL VARIABLES */
 :root {
-    --navy: #060E1E;
-    --navy-alt: #0A1630;
+    --navy: #111827;
+    --navy-alt: #ffffff;
     --gold: #0E845C;
     --gold-hover: #0A6A4A;
-    --white: #FFFFFF;
-    --slate: #94A3B8;
+    --white: #ffffff;
+    --slate: #4B5563;
     --border: rgba(14, 132, 92, 0.2);
     --font-heading: 'Playfair Display', serif;
     --font-body: 'DM Sans', sans-serif;
@@ -26,7 +26,7 @@ body {
 
 body {
     background-color: var(--navy);
-    color: var(--white);
+    color: var(--navy);
     font-family: var(--font-body);
     font-size: 16px;
     line-height: 1.6;
@@ -40,6 +40,7 @@ h4,
 h5,
 h6 {
     font-family: var(--font-heading);
+    color: var(--navy);
     font-weight: 400;
     line-height: 1.2;
 }
@@ -103,142 +104,56 @@ em {
 }
 
 /* Light Theme Classes */
-.bg-light {
-    background-color: var(--white);
-    color: var(--navy);
-}
 
-.bg-light .section-title,
-.bg-light h2,
-.bg-light h3,
-.bg-light h4 {
-    color: var(--navy) !important;
-}
 
-.bg-light .section-subtitle,
-.bg-light p,
-.bg-light .footer-note,
-.bg-light .italic-note {
-    color: var(--navy) !important;
-}
 
-.bg-light .service-box,
-.bg-light .expense-card,
-.bg-light .benefit-box {
-    background-color: var(--white);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-}
 
-.bg-light .service-sub,
-.bg-light .upsell-note,
-.bg-light .upsell-model-note {
-    color: rgba(6, 14, 30, 0.7) !important;
-}
 
-.bg-light .chip-dark {
-    background: rgba(6, 14, 30, 0.05);
-    border: 1px solid rgba(6, 14, 30, 0.1);
-    color: var(--navy);
-}
 
-.bg-light .data-table th,
-.bg-light .data-table td {
-    border-bottom: 1px solid rgba(6, 14, 30, 0.1);
-    color: var(--navy);
-}
 
-.bg-light .data-table thead th {
-    background-color: rgba(6, 14, 30, 0.03);
-}
 
-.bg-light .col-highlight {
-    background-color: rgba(14, 132, 92, 0.05);
-    color: var(--navy);
-    font-weight: 600;
-}
 
-.bg-light .raise-row {
-    border-bottom: 1px solid rgba(6, 14, 30, 0.1);
-}
 
-.bg-light .accordion-item {
-    background-color: var(--white);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
-}
 
-.bg-light .accordion-header {
-    color: var(--navy);
-}
 
-.bg-light .accordion-header:hover {
-    color: var(--gold);
-}
 
-.bg-light .accordion-content p {
-    color: rgba(6, 14, 30, 0.8) !important;
-}
 
-.bg-light .benefit-box p {
-    color: rgba(6, 14, 30, 0.8) !important;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Additional Light Theme Overrides */
-.bg-light ul li,
-.bg-light ol li,
-.bg-light .gap-list li,
-.bg-light .automation-list li p {
-    color: var(--navy) !important;
-}
 
-.bg-light .mini-list-label,
-.bg-light .funnel-label,
-.bg-light .auto-stat-label {
-    color: rgba(6, 14, 30, 0.6) !important;
-}
 
-.bg-light .step-chip,
-.bg-light .step {
-    background-color: rgba(6, 14, 30, 0.05);
-    border: 1px solid rgba(6, 14, 30, 0.1);
-    color: var(--navy);
-}
 
-.bg-light .step small {
-    color: rgba(6, 14, 30, 0.7);
-}
 
-.bg-light .funnel-row {
-    background-color: var(--white);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-}
 
-.bg-light .funnel-result {
-    color: var(--gold);
-    font-weight: 700;
-}
 
-.bg-light .funnel-result small {
-    color: rgba(6, 14, 30, 0.6);
-}
 
-.bg-light .funnel-callout {
-    background-color: rgba(14, 132, 92, 0.05);
-    color: var(--navy);
-    border: 1px solid var(--border);
-}
 
-.bg-light .full-width-strip {
-    background-color: rgba(6, 14, 30, 0.03);
-    color: var(--navy);
-    border-top: 1px solid rgba(6, 14, 30, 0.1);
-    border-bottom: 1px solid rgba(6, 14, 30, 0.1);
-}
 
-.bg-light .auto-stat-val {
-    color: var(--navy);
-}
+
+
+
+
+
+
+
+
+
+
 
 
 /* Buttons */
@@ -286,16 +201,16 @@ em {
 }
 
 .btn-navy:hover {
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 .btn-ghost-light {
-    border-color: rgba(255, 255, 255, 0.5);
-    color: var(--white);
+    border-color: rgba(0, 0, 0, 0.5);
+    color: var(--navy);
 }
 
 .btn-ghost-light:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* SECTION 1 - NAV */
@@ -304,10 +219,10 @@ em {
     top: 0;
     width: 100%;
     z-index: 1000;
-    background: rgba(6, 14, 30, 0.8);
+    background: rgba(0, 0, 0, 0.95);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     padding: 1.25rem 0;
 }
 
@@ -407,7 +322,7 @@ em {
 .hero-headline {
     font-size: 4.5rem;
     margin-bottom: 1.5rem;
-    color: var(--white);
+    color: var(--navy);
 }
 
 .hero-headline em {
@@ -515,7 +430,7 @@ em {
 .card-title {
     font-size: 1.5rem;
     margin-bottom: 1.25rem;
-    color: var(--white);
+    color: var(--navy);
     font-family: var(--font-body);
     font-weight: 600;
 }
@@ -529,12 +444,12 @@ em {
     font-size: 0.95rem;
     color: var(--slate);
     margin-bottom: 0.75rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     padding-bottom: 0.75rem;
 }
 
 .card-stats .stat-val {
-    color: var(--white);
+    color: var(--navy);
     font-weight: 500;
 }
 
@@ -559,7 +474,7 @@ em {
 
 .mini-list-subbox {
     background: rgba(0, 0, 0, 0.15);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.05);
     padding: 1.5rem;
     border-radius: 6px;
     margin: 1.5rem 0;
@@ -572,7 +487,7 @@ em {
     letter-spacing: 1px;
     margin-bottom: 1.25rem;
     padding-bottom: 0.5rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .automation-list {
@@ -603,14 +518,14 @@ em {
 }
 
 .automation-list strong {
-    color: var(--white);
+    color: var(--navy);
     font-weight: 500;
 }
 
 .recurring-note {
     font-size: 0.95rem;
     line-height: 1.6;
-    border-top: 1px dashed rgba(255, 255, 255, 0.1);
+    border-top: 1px dashed rgba(0, 0, 0, 0.1);
     padding-top: 1.25rem;
 }
 
@@ -630,8 +545,9 @@ em {
 /* --- SECTION 5: ONE-TIME REVENUE ENGINE (SERVICE BOXES) --- */
 
 .service-box {
-    background: var(--card-bg);
-    border: 1px solid var(--gold);
+    background: var(--white);
+    border: 1px solid var(--border);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     border-radius: 12px;
     padding: 3rem;
     display: grid;
@@ -657,7 +573,7 @@ em {
 
 .service-title {
     font-size: 2rem;
-    color: var(--white);
+    color: var(--navy);
     margin-bottom: 0.5rem;
     font-family: var(--font-body);
     font-weight: 600;
@@ -678,19 +594,19 @@ em {
 }
 
 .chip-dark {
-    background: rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0.5rem 1rem;
     border-radius: 6px;
     font-size: 0.9rem;
-    color: var(--slate);
+    color: var(--navy);
     white-space: normal;
     word-break: break-word;
 }
 
 .chip-dark.highlight {
-    color: var(--white);
-    border-color: rgba(255, 255, 255, 0.15);
+    color: var(--navy);
+    border-color: rgba(0, 0, 0, 0.15);
 }
 
 .chip-dark.highlight-profit {
@@ -717,7 +633,7 @@ em {
     border-left: 3px solid var(--gold);
     padding: 1.25rem;
     font-size: 0.95rem;
-    color: var(--white);
+    color: var(--navy);
     line-height: 1.5;
     border-radius: 0 6px 6px 0;
 }
@@ -728,7 +644,7 @@ em {
 
 .upsell-container {
     background: rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.03);
     border-radius: 8px;
     padding: 1.5rem;
 }
@@ -751,8 +667,8 @@ em {
 }
 
 .step-chip {
-    background: rgba(255, 255, 255, 0.05);
-    color: var(--white);
+    background: rgba(0, 0, 0, 0.05);
+    color: var(--navy);
     padding: 0.4rem 0.8rem;
     border-radius: 4px;
     font-size: 0.85rem;
@@ -774,10 +690,10 @@ em {
 
 .upsell-model-note {
     font-size: 0.85rem;
-    color: var(--white);
+    color: var(--navy);
     margin-top: 0.75rem;
     padding-top: 0.75rem;
-    border-top: 1px dashed rgba(255, 255, 255, 0.1);
+    border-top: 1px dashed rgba(0, 0, 0, 0.1);
 }
 
 /* Automation specific */
@@ -789,7 +705,7 @@ em {
 
 .auto-stat-box {
     background: rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.03);
     padding: 1.25rem;
     border-radius: 8px;
 }
@@ -805,7 +721,7 @@ em {
 .auto-stat-val {
     display: block;
     font-size: 1.15rem;
-    color: var(--white);
+    color: var(--navy);
     font-weight: 600;
 }
 
@@ -889,12 +805,12 @@ em {
 .model-note {
     font-size: 0.95rem;
     color: var(--slate);
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
     padding-top: 1rem;
 }
 
 .model-note strong {
-    color: var(--white);
+    color: var(--navy);
 }
 
 .card-note {
@@ -918,7 +834,7 @@ em {
 }
 
 .callout-box strong {
-    color: var(--white);
+    color: var(--navy);
     font-weight: 500;
 }
 
@@ -936,7 +852,7 @@ em {
 
 /* The Problem */
 .pattern-bg {
-    background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-image: radial-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px);
     background-size: 30px 30px;
 }
 
@@ -983,7 +899,7 @@ em {
 .data-table td {
     padding: 1rem 1.5rem;
     text-align: left;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .data-table th {
@@ -996,7 +912,7 @@ em {
 }
 
 .data-table tbody tr:hover {
-    background: rgba(255, 255, 255, 0.02);
+    background: rgba(0, 0, 0, 0.02);
 }
 
 .col-highlight {
@@ -1012,7 +928,7 @@ em {
 .table-h3 {
     font-family: var(--font-body);
     font-size: 1.25rem;
-    color: var(--white);
+    color: var(--navy);
     margin-bottom: 1rem;
 }
 
@@ -1049,7 +965,7 @@ em {
 
 .statement-headline {
     font-size: 4rem;
-    color: var(--white);
+    color: var(--navy);
     margin-bottom: 1.5rem;
     line-height: 1.1;
 }
@@ -1067,7 +983,7 @@ em {
 .statement-bold {
     font-size: 1.35rem;
     font-weight: 600;
-    color: var(--white);
+    color: var(--navy);
 }
 
 .team-right-panel {
@@ -1107,7 +1023,7 @@ em {
 
 .role-title {
     font-size: 1.1rem;
-    color: var(--white);
+    color: var(--navy);
     margin-bottom: 0.5rem;
     font-family: var(--font-body);
 }
@@ -1206,7 +1122,7 @@ em {
 
 .spotlight-title {
     font-size: 2.5rem;
-    color: var(--white);
+    color: var(--navy);
     margin-bottom: 1.5rem;
 }
 
@@ -1229,7 +1145,7 @@ em {
     align-items: center;
     gap: 0.75rem;
     font-size: 1.05rem;
-    color: var(--white);
+    color: var(--navy);
 }
 
 .spotlight-bottom {
@@ -1271,7 +1187,7 @@ em {
 
 .funnel-label {
     font-weight: 600;
-    color: var(--white);
+    color: var(--navy);
     font-size: 1.1rem;
 }
 
@@ -1310,7 +1226,7 @@ em {
     color: var(--gold);
     font-weight: 700;
     font-size: 1.25rem;
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
     padding-left: 1.5rem;
 }
 
@@ -1361,7 +1277,7 @@ em {
 .counter-num {
     font-size: 4rem;
     font-family: var(--font-heading);
-    color: var(--white);
+    color: var(--navy);
     line-height: 1;
     margin-bottom: 1.5rem;
 }
@@ -1415,7 +1331,7 @@ em {
     display: flex;
     justify-content: space-between;
     padding: 1rem 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     font-size: 1.2rem;
 }
 
@@ -1429,7 +1345,7 @@ em {
 }
 
 .raise-row span {
-    color: var(--white);
+    color: var(--navy);
     font-weight: 600;
     text-align: right;
 }
@@ -1506,11 +1422,11 @@ em {
 
 /* Accordion */
 .accordion {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .accordion-item {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .accordion-header {
@@ -1519,7 +1435,7 @@ em {
     padding: 1.5rem 0;
     background: none;
     border: none;
-    color: var(--white);
+    color: var(--navy);
     font-size: 1.15rem;
     font-weight: 500;
     font-family: var(--font-body);
@@ -1567,7 +1483,7 @@ em {
 }
 
 .investor-list strong {
-    color: var(--white);
+    color: var(--navy);
     display: block;
     margin-bottom: 0.25rem;
     color: var(--gold);
@@ -1577,7 +1493,7 @@ em {
     font-family: var(--font-heading);
     font-size: 1.75rem;
     line-height: 1.4;
-    color: var(--white);
+    color: var(--navy);
     font-style: italic;
     border-left: 4px solid var(--gold);
     padding-left: 2rem;
@@ -1618,7 +1534,7 @@ em {
 }
 
 .footer-legal {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(0, 0, 0, 0.4);
     font-size: 0.85rem;
 }
 
@@ -1670,7 +1586,7 @@ em {
 
     .funnel-result {
         border-left: none;
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
         padding-top: 1.5rem;
         padding-left: 0;
         text-align: center;
@@ -1768,3 +1684,5 @@ em {
         padding: 1rem;
     }
 }
+
+
