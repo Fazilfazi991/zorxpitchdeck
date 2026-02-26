@@ -184,6 +184,63 @@ em {
     color: rgba(6, 14, 30, 0.8) !important;
 }
 
+/* Additional Light Theme Overrides */
+.bg-light ul li,
+.bg-light ol li,
+.bg-light .gap-list li,
+.bg-light .automation-list li p {
+    color: var(--navy) !important;
+}
+
+.bg-light .mini-list-label,
+.bg-light .funnel-label,
+.bg-light .auto-stat-label {
+    color: rgba(6, 14, 30, 0.6) !important;
+}
+
+.bg-light .step-chip,
+.bg-light .step {
+    background-color: rgba(6, 14, 30, 0.05);
+    border: 1px solid rgba(6, 14, 30, 0.1);
+    color: var(--navy);
+}
+
+.bg-light .step small {
+    color: rgba(6, 14, 30, 0.7);
+}
+
+.bg-light .funnel-row {
+    background-color: var(--white);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.bg-light .funnel-result {
+    color: var(--gold);
+    font-weight: 700;
+}
+
+.bg-light .funnel-result small {
+    color: rgba(6, 14, 30, 0.6);
+}
+
+.bg-light .funnel-callout {
+    background-color: rgba(14, 132, 92, 0.05);
+    color: var(--navy);
+    border: 1px solid var(--border);
+}
+
+.bg-light .full-width-strip {
+    background-color: rgba(6, 14, 30, 0.03);
+    color: var(--navy);
+    border-top: 1px solid rgba(6, 14, 30, 0.1);
+    border-bottom: 1px solid rgba(6, 14, 30, 0.1);
+}
+
+.bg-light .auto-stat-val {
+    color: var(--navy);
+}
+
+
 /* Buttons */
 .btn {
     display: inline-block;
