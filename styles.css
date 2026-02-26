@@ -2,11 +2,11 @@
 :root {
     --navy: #060E1E;
     --navy-alt: #0A1630;
-    --gold: #C9962A;
-    --gold-hover: #D8A53B;
+    --gold: #0E845C;
+    --gold-hover: #0A6A4A;
     --white: #FFFFFF;
     --slate: #94A3B8;
-    --border: rgba(201, 150, 42, 0.2);
+    --border: rgba(14, 132, 92, 0.2);
     --font-heading: 'Playfair Display', serif;
     --font-body: 'DM Sans', sans-serif;
 }
@@ -137,7 +137,7 @@ em {
 }
 
 .btn-ghost:hover {
-    background-color: rgba(201, 150, 42, 0.1);
+    background-color: rgba(14, 132, 92, 0.1);
 }
 
 .btn-navy {
@@ -211,8 +211,8 @@ em {
     width: 100%;
     height: 100%;
     background-image:
-        linear-gradient(rgba(201, 150, 42, 0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(201, 150, 42, 0.03) 1px, transparent 1px);
+        linear-gradient(rgba(14, 132, 92, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(14, 132, 92, 0.03) 1px, transparent 1px);
     background-size: 50px 50px;
     z-index: -1;
 }
@@ -228,7 +228,7 @@ em {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    background: rgba(201, 150, 42, 0.1);
+    background: rgba(14, 132, 92, 0.1);
     border: 1px solid var(--border);
     padding: 0.4rem 1rem;
     border-radius: 50px;
@@ -251,17 +251,17 @@ em {
 @keyframes pulse {
     0% {
         transform: scale(0.95);
-        box-shadow: 0 0 0 0 rgba(201, 150, 42, 0.7);
+        box-shadow: 0 0 0 0 rgba(14, 132, 92, 0.7);
     }
 
     70% {
         transform: scale(1);
-        box-shadow: 0 0 0 6px rgba(201, 150, 42, 0);
+        box-shadow: 0 0 0 6px rgba(14, 132, 92, 0);
     }
 
     100% {
         transform: scale(0.95);
-        box-shadow: 0 0 0 0 rgba(201, 150, 42, 0);
+        box-shadow: 0 0 0 0 rgba(14, 132, 92, 0);
     }
 }
 
@@ -364,7 +364,7 @@ em {
 .card-icon {
     width: 50px;
     height: 50px;
-    background: rgba(201, 150, 42, 0.1);
+    background: rgba(14, 132, 92, 0.1);
     color: var(--gold);
     border-radius: 50%;
     display: flex;
@@ -503,7 +503,7 @@ em {
 }
 
 .service-box:hover {
-    box-shadow: 0 0 20px rgba(201, 150, 42, 0.15);
+    box-shadow: 0 0 20px rgba(14, 132, 92, 0.15);
 }
 
 .service-col-left {
@@ -556,7 +556,7 @@ em {
 
 .chip-dark.highlight-profit {
     color: var(--gold);
-    border-color: rgba(201, 150, 42, 0.3);
+    border-color: rgba(14, 132, 92, 0.3);
     font-weight: 600;
 }
 
@@ -574,7 +574,7 @@ em {
 }
 
 .live-pipeline-box {
-    background: rgba(201, 150, 42, 0.05);
+    background: rgba(14, 132, 92, 0.05);
     border-left: 3px solid var(--gold);
     padding: 1.25rem;
     font-size: 0.95rem;
@@ -672,7 +672,7 @@ em {
 
 .auto-timeline-tag {
     display: inline-block;
-    background: rgba(201, 150, 42, 0.1);
+    background: rgba(14, 132, 92, 0.1);
     color: var(--gold);
     padding: 0.5rem 1rem;
     border-radius: 4px;
@@ -767,7 +767,7 @@ em {
 }
 
 .callout-box {
-    background: rgba(201, 150, 42, 0.05);
+    background: rgba(14, 132, 92, 0.05);
     border-left: 4px solid var(--gold);
     padding: 2rem;
     font-size: 1.1rem;
@@ -848,7 +848,7 @@ em {
 }
 
 .data-table th {
-    background: rgba(201, 150, 42, 0.1);
+    background: rgba(14, 132, 92, 0.1);
     color: var(--gold);
     font-weight: 600;
     text-transform: uppercase;
@@ -861,7 +861,7 @@ em {
 }
 
 .col-highlight {
-    background: rgba(201, 150, 42, 0.05);
+    background: rgba(14, 132, 92, 0.05);
     color: var(--gold);
     font-weight: 600;
 }
@@ -1032,15 +1032,15 @@ em {
 
 @keyframes borderPulse {
     0% {
-        box-shadow: 0 0 0 0 rgba(201, 150, 42, 0.4);
+        box-shadow: 0 0 0 0 rgba(14, 132, 92, 0.4);
     }
 
     70% {
-        box-shadow: 0 0 0 10px rgba(201, 150, 42, 0);
+        box-shadow: 0 0 0 10px rgba(14, 132, 92, 0);
     }
 
     100% {
-        box-shadow: 0 0 0 0 rgba(201, 150, 42, 0);
+        box-shadow: 0 0 0 0 rgba(14, 132, 92, 0);
     }
 }
 
@@ -1055,7 +1055,7 @@ em {
 
 .spotlight-label {
     display: inline-block;
-    background: rgba(201, 150, 42, 0.1);
+    background: rgba(14, 132, 92, 0.1);
     color: var(--gold);
     padding: 0.5rem 1rem;
     border-radius: 50px;
@@ -1256,7 +1256,7 @@ em {
 }
 
 .compounding-visual {
-    background: rgba(201, 150, 42, 0.1);
+    background: rgba(14, 132, 92, 0.1);
     padding: 1rem;
     color: var(--gold);
     font-weight: 500;
@@ -1346,7 +1346,7 @@ em {
 }
 
 .reason-num {
-    background: rgba(201, 150, 42, 0.1);
+    background: rgba(14, 132, 92, 0.1);
     color: var(--gold);
     width: 40px;
     height: 40px;
